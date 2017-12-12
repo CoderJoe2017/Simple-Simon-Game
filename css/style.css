@@ -1,0 +1,138 @@
+body {
+  background: url("https://i.imgur.com/lX4o3EL.jpg");
+  font-family: 'courier', bold;
+  color: white;
+  background-size:100%;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+h4 {
+  text-align: center;
+  font-size: 40px;
+}
+.simonBoard {
+  margin: 0 auto;
+  margin-top: 50px;
+  border: solid 10px black;
+  width: 600px;
+  height: 600px;
+  border-radius: 600px;
+}
+.pad {
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 290px;
+  height: 290px;
+  z-index: 9;
+  border: 5px solid black;
+}
+.green {
+    background-color:#0a0;
+    -moz-border-radius: 300px 0 0 0;
+    border-radius: 300px 0 0 0;    
+}
+.green-active {
+  background-color: darkgreen !important;
+}
+.red {
+  background-color: red;
+  -moz-border-radius: 0 300px 0 0;
+  border-radius: 0 300px 0 0;
+}
+.red-active {
+  background-color: darkred !important;
+}
+.yellow {
+  background-color: goldenrod;
+  -moz-border-radius: 0 0 0 300px;
+  border-radius: 0 0 0 300px;
+}
+.yellow-active {
+  background-color: yellow !important;
+}
+.blue {
+  background-color: darkblue;
+  -moz-border-radius: 0 0 300px 0;
+  border-radius: 0 0 300px 0;
+}
+.blue-active {
+  background-color: blue !important;
+}
+.board-controls {
+  color:red;
+  border: 15px solid black;
+  height: 245px;
+  width: 245px;
+  border-radius: 150px;
+  background-color: white;
+  clear: both;
+  position: absolute;
+  z-index: 10;
+  margin-top: 160px;
+  margin-left: 160px;
+  -webkit-box-shadow: -6px 8px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.title {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: auto;
+  font-weight: bold;
+}
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+.display {  
+  border: solid 2px black;
+  border-radius:2px;
+  color: black;
+  width:50px;
+  height: 45px;
+  font-size: 30px;
+  background-color:green;
+}
+.start, .strict {
+  text-align: center;
+  margin: 3px;
+  margin-left: 20px;
+  border: solid 3px black;
+  width: 75px;
+  height: 49px;
+  border-radius: 10px;
+  color: black;
+  line-height: 49px;
+}
+.start {  
+  background-color:  #ff1a1a;
+}
+ .strict {
+  background-color: yellow;
+}
+.switch-container {
+  margin-top:0px;
+}
+.outter-switch {
+  border: solid 2px black;
+  width: 40px;
+  height: 29px;
+  background-color: black;  
+}
+active {
+  background-color: green !important;
+}
+.inner-switch {
+  background-color: gray;
+  width: 20px;
+  height: 25px;
+  position: relative !important;
+}
+.inner-inactive {
+  background-color: green !important;
+}
